@@ -39,6 +39,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN  }}
           requirements: |
             - name: Data Eng
+              paths:
+                - '*'
               teams:
                 - data-platforms
           status: Data Eng Final Approval
